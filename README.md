@@ -11,5 +11,5 @@ To install Neuron SDK in your instance:
 
 2. Run the installation script:
 ```
-sh neuron-install.sh
+sh neuron-install-n215-u2204.sh
 ```
