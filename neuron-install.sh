@@ -56,4 +56,7 @@ python3 -m pip install awscli
 # Install Neuron Compiler and Framework
 python3 -m pip install neuronx-cc==2.* torch-neuronx torchvision
 pip install transformers accelerate diffusers evaluate scikit-learn
-pip install transformers==4.34.1 accelerate==0.23.0 diffusers==0.21.4 scikit-learn==1.3.2 evaluate gradio==4.0.2 matplotlib optimum[neuronx]
+pip install transformers==4.34.1 accelerate==0.23.0 diffusers==0.21.4 scikit-learn==1.3.2 evaluate gradio==4.0.2 matplotlib
+git clone https://github.com/huggingface/optimum-neuron.git
+cd optimum-neuron
+python3 setup.py install
